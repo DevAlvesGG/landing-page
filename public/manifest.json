@@ -3,13 +3,13 @@
   "name": "Bolatec - Assistência Técnica",
   "icons": [
     {
-      "src": "logo-bolatec.png",
+      "src": "favicon-bolatec.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "logo-bolatec.png",
+      "src": "favicon-bolatec.png",
       "sizes": "192x192 512x512",
       "type": "image/png",
       "purpose": "maskable"
