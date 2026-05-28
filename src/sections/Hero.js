@@ -1,6 +1,9 @@
 import React from 'react';
 
 function Hero() {
+  const phoneNumber = "551123616734"; 
+  const message = "Olá! Gostaria de fazer um orçamento.";
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <section className="relative bg-brandBlack pt-32 pb-20 px-6 overflow-hidden">
       {/* Detalhe de luz de fundo para dar profundidade */}
@@ -16,7 +19,8 @@ function Hero() {
         </p>
 
         <div className="mt-12 flex flex-col md:flex-row justify-center gap-6">
-          <a href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} className="bg-brandYellow text-black px-10 py-4 rounded-md font-black uppercase hover:bg-yellow-400 transition-all transform hover:scale-105">
+          <a href={url} 
+          className="bg-brandYellow text-black px-10 py-4 rounded-md font-black uppercase hover:bg-yellow-400 transition-all transform hover:scale-105">
             Orçamento Grátis
           </a>
           <a href="#servicos" className="border-2 border-white/20 text-white px-10 py-4 rounded-md font-black uppercase hover:border-brandYellow transition-all">
