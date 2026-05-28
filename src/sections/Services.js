@@ -17,7 +17,7 @@ function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map(s => (
             <div key={s.id} className="bg-black p-6 border-b-4 border-brandYellow rounded-lg hover:-translate-y-2 transition-transform">
-              <span className="text-brandYellow font-mono text-sm">{s.id} //</span>
+              <span className="text-brandYellow font-mono text-sm">{s.id}</span>
               <h3 className="text-xl font-bold mt-2 uppercase">{s.title}</h3>
               <p className="text-gray-400 text-sm mt-4">{s.desc}</p>
             </div>
