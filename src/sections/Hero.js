@@ -16,7 +16,7 @@ function Hero() {
         </p>
 
         <div className="mt-12 flex flex-col md:flex-row justify-center gap-6">
-          <a href="#contato" className="bg-brandYellow text-black px-10 py-4 rounded-md font-black uppercase hover:bg-yellow-400 transition-all transform hover:scale-105">
+          <a href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`} className="bg-brandYellow text-black px-10 py-4 rounded-md font-black uppercase hover:bg-yellow-400 transition-all transform hover:scale-105">
             Orçamento Grátis
           </a>
           <a href="#servicos" className="border-2 border-white/20 text-white px-10 py-4 rounded-md font-black uppercase hover:border-brandYellow transition-all">
