@@ -24,7 +24,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-6">
           {/* Logo ou Nome da Loja no Rodapé */}
           <p className="text-brandYellow font-black uppercase tracking-tighter text-xl mb-4">
-            Bolatec
+            - Bolatec Assistência Técnica
           </p>
 
           <div className="text-gray-500 text-sm space-y-2">
