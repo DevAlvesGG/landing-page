@@ -11,11 +11,11 @@ function Hero() {
 
       <div className="max-w-6xl mx-auto text-center relative z-10">
         <h1 className="text-5xl md:text-7xl font-black text-white italic tracking-tighter uppercase leading-none">
-          Assistência <span className="text-brandYellow">Técnica</span>
+         <span className="text-brandYellow">Bolatec</span> Assistência Técnica 
         </h1>
         
-        <p className="mt-6 text-gray-400 text-lg md:text-xl max-w-2xl mx-auto font-medium tracking-widest uppercase">
-          Games • Celular • Computador • Notebook
+        <p className="mt-6 text-gray-400 text-lg md:text-xl max-w-max mx-auto font-medium tracking-widest uppercase whitespace-nowrap">
+          Games • Celular • Tablet • Computador • Notebook • TV
         </p>
 
         <div className="mt-12 flex flex-col md:flex-row justify-center gap-6">
