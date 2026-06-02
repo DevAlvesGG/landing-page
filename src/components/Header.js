@@ -11,7 +11,6 @@ function Header() {
       
       <nav className="hidden md:flex gap-8 text-xs font-black uppercase tracking-widest">
 
-        <a href="/api/login" className="hover:text-brandYellow transition-colors">Login</a>
         <a href="#sobre" className="hover:text-brandYellow transition-colors">Sobre</a>
         <a href="#servicos" className="hover:text-brandYellow transition-colors">Serviços</a>
         <a href="https://wa.me/551123616734" className="text-brandYellow">Contato</a>
