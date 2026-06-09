@@ -64,7 +64,7 @@ function Hero() {
          <span className="text-brandYellow">Bolatec</span> Assistência Técnica 
         </h1>
         
-        <p className="mt-6 text-gray-400 text-lg md:text-xl max-w-max mx-auto font-medium tracking-widest uppercase whitespace-nowrap">
+        <p className="mt-6 text-gray-400 text-base md:text-xl max-w-xl mx-auto font-medium tracking-widest uppercase text-center md:whitespace-nowrap">
           Games • Celular • Tablet • Computador • Notebook • TV
         </p>
 
